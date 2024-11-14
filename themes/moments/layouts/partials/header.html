@@ -1,0 +1,31 @@
+<picture>
+  <!-- Provide different image sources for various screen sizes -->
+  <source
+    srcset="
+      https://raw.githubusercontent.com/khokirstalin/khokirstalinassets/refs/heads/main/mobile600x.png
+    "
+    media="(max-width: 320px)"
+  />
+  <source
+    srcset="
+      https://raw.githubusercontent.com/khokirstalin/khokirstalinassets/refs/heads/main/mobile600x.png
+    "
+    media="(max-width: 640px)"
+  />
+  <source
+    srcset="
+      https://raw.githubusercontent.com/khokirstalin/khokirstalinassets/refs/heads/main/desk_cover.png
+    "
+    media="(max-width: 1280px)"
+  />
+  <source srcset="" media="(min-width: 1281px)" />
+
+  <!-- Fallback image for browsers that do not support <picture> -->
+  <img
+    src="https://raw.githubusercontent.com/khokirstalin/khokirstalinassets/refs/heads/main/desk_cover.png"
+    alt="Header Image"
+    style="width: 100%; height: auto"
+  />
+</picture>
+
+<div style="height: 50px"></div>

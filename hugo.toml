@@ -1,0 +1,8 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'The GTI'
+theme = 'moments'
+
+[params]
+    signature = "Author"
+    name = "R Stalin"
